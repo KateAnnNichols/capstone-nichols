@@ -1,0 +1,26 @@
+.sticker-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* max-width: 63.1%; */
+  max-width: 80%;
+  margin: auto;
+  /* width: 150px;
+  height: 150px;
+  margin: 40px; */
+}
+
+.stick {
+  background-color: white;
+  border: none;
+}
+
+.student-choice {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  background-color: white;
+  border: solid #00ced1 3px;
+  border-radius: 10%;
+}

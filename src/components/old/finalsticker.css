@@ -1,0 +1,10 @@
+.finalSticker {
+    width:150px;
+    height:150px;
+      /* box-sizing:border-box; */
+    padding-left: 200px;
+    background-repeat: no-repeat;
+    background: url(https://i.ibb.co/rvtygSG/images.png) left top no-repeat;
+    background-size: 150px 150px;
+    }
+    

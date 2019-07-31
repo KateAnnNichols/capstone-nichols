@@ -1,0 +1,44 @@
+.customer {
+    background-color: pink;
+  
+    padding: 1em 0;
+    margin: 0.5rem;
+  
+    min-height: 40px;
+    min-width: 225px;
+    flex-basis: 18%;
+  
+    border-radius: 5px;
+  
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    align-items: center;
+  }
+  
+  .customer__content {
+    grid-column-start: 2;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+    text-align: center;
+    font-weight: 100;
+    overflow: hidden;
+  }
+  
+  .customer__content-name {
+    font-size: 1.5rem;
+  }
+  
+  .customer__select {
+    grid-column-start: 3;
+    width: 100px;
+    /* color: rgb(183, 232, 255);
+    font-size: 1.5rem;
+    background-color:inherit;
+    height: 30px;
+    margin: 0.5rem;
+    display: block; */
+  }
+  

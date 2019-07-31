@@ -1,0 +1,9 @@
+.button {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 15px;
+  height: 15px;
+  margin: 40px;
+}

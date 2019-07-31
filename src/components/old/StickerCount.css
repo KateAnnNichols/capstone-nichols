@@ -1,0 +1,9 @@
+.sticker-count {
+    width:150px;
+    height:150px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background: url(https://i.ibb.co/6PZqtHk/Screen-Shot-2019-07-19-at-11-22-08-AM.png) left top no-repeat;
+    /* border: 2px rgb(15, 32, 185) solid; */
+    background-size: 400px 400px;
+  }

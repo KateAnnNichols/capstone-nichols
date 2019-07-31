@@ -1,0 +1,61 @@
+.sticker {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.sticker img {
+  border: solid #00ced1 3px;
+  border-radius: 10%;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+}
+
+.stickerBoard {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  margin: auto;
+}
+
+.target {
+  background-color: rgb(255, 255, 255);
+  width: 150px;
+  height: 150px;
+  margin: 40px;
+}
+
+.image {
+  /* width: 150px;
+  height: 150px; */
+  /* box-sizing:border-box; */
+  /* padding-left: 200px;
+  background-repeat: no-repeat;
+  background: url(https://i.ibb.co/b2wZDqL/61-Ez-ZBx-ZN2-L-SX425.jpg) left top
+    no-repeat;
+  background-size: 150px 150px; */
+
+  /* border: solid black 3px; */
+  /* width: 100px;
+      height: 100px; */
+  /* margin: 40px;
+      border-radius: 50%; */
+}
+
+.reward img {
+  animation-iteration-count: 1;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
